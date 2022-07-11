@@ -65,33 +65,33 @@ letters.insert(0, "-")  # adds at a specific index
 print(letters)
 
 # remove
-letters.pop()        # removes at end of the list
+letters.pop()  # removes at end of the list
 print(letters)
-letters.pop(0)       # removes at a specific index
+letters.pop(0)  # removes at a specific index
 print(letters)
 letters.remove("b")  # if index in unknown, deletes the first of given value
 print(letters)
-del letters[0:2]     #can delete range of items unlike pop method
+del letters[0:2]  # can delete range of items unlike pop method
 print(letters)
-letters.clear()      #deletes all items in the list
+letters.clear()  # deletes all items in the list
 print(letters)
 
 letters = ["a", "b", "c"]
 # find index
 print(letters.index("c"))
-#find a value is not present in the list it would show error. So we need to check it first
+# find a value is not present in the list it would show error. So we need to check it first
 if "d" in letters:
-    print(letters.index("d"))       # gives no error because of the checking
+    print(letters.index("d"))  # gives no error because of the checking
 
-#find number of value present
+# find number of value present
 print(letters.count("a"))
 
-#Sorting in ascending order
-numberlist = [3,51,2,8,6]
+# Sorting in ascending order
+numberlist = [3, 51, 2, 8, 6]
 numberlist.sort()
 print(numberlist)
 
-#Sorting in descending order
+# Sorting in descending order
 
 numbers.sort(reverse=True)
 print(numberlist)
